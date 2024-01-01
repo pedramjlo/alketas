@@ -1,0 +1,49 @@
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+
+
+
+
+{% block navbar %}
+
+<div class="entry-navbar">
+  <span class="welcome-text">Welcome!</span>
+  <a href="#" class="logo">آلکتاس</a>
+</div>
+   
+{% endblock %}
+
+
+
+
+{% block content %}
+
+
+
+
+
+
+<div class="right-side">
+  <div class="entry-text">
+    <p>آلکتاس پروژه چت اپلیکیشن</p>
+  </div>
+  
+  
+  
+  <div class="signup-button"><p>حساب کاربری بساز</p></div>
+  <div class="login-button"><p>وارد حساب شو</p></div>
+  <div class="visitor-button"><p>ویزیتور</p></div>
+</div>
+
+
+
+
+<div class="left-side">
+    <img src="{% static 'image/main.svg' %}" alt="">
+</div>
+
+
+
+{% endblock %}

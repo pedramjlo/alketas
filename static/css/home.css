@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+
+
+*
+{
+  html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+}
+
+
+
+
+body{
+  background-color: #D9F2FF;
+  overflow: hidden;
+}
+
+.entry-navbar
+{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+
+  background-color: #322E2F;
+}
+
+
+.welcome-text
+{
+  color: white;
+  font-size: 50px;
+
+  margin-top: 18px;
+  margin-left: 150px;
+}
+
+.logo
+{
+  color: white;
+
+  text-decoration: none;  
+  font-size: 50px;
+  font-weight: bold;
+  
+  margin-top: 17px;
+  margin-right: 150px;
+}
+
+
+
+/* ------------------------------------------------------ */
+
+.right-side
+{
+  transform: translateY(80px);
+}
+
+
+
+.entry-text
+{
+
+  color:#004461;
+  text-align:center;
+  vertical-align:text-middle;
+  font-size:65px;
+  font-family:Jomhuria;
+  line-height:60.0000011920929px;
+  border-style:hidden;
+  outline:none;
+  width:391px;
+  word-spacing: -2px;
+
+  transform: translateX(750px) translateY(80px);
+}
+
+
+.signup-button
+{
+  background-color:#12a4d9;
+  height:60px;
+  width:391px;
+  border-radius:10px;
+
+  transform: translateX(750px) translateY(90px);
+}
+
+.signup-button p
+{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+.login-button
+{
+  background-color:#D9138A;
+  height:60px;
+  width:361px;
+  border-radius:10px;
+
+  transform: translateX(767px) translateY(110px);
+}
+
+.login-button p
+{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.visitor-button
+{
+  background-color:#5F5E57;
+  height:60px;
+  width:331px;
+  border-radius:10px;
+
+  transform: translateX(780px) translateY(130px);
+}
+
+.visitor-button p
+{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.signup-button p, .login-button p, .visitor-button p 
+{
+  font-family: Jomhuria;
+  font-size: 30px;
+}
+
+.left-side
+{
+  height: 300px;
+  transform: translateY(-200px);
+}
